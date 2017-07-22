@@ -1,7 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{font-family: Helvetica; "sans-serif";}
+body{font-family: Helvetica; "sans-serif";
+text-align: center;}
 
 /* HEADER */
 
@@ -11,17 +12,35 @@ header{background-image: url(../images/the-flatiron-building.png);
 
 h1{font-size: 70px;}
 
-nav li,a{
+h2{font-size: 32px;
+font-weight: bold; 
+text-align: center;}
+
+h3{font-size: 23px;
+font-weight: bold;
+text-align: center;}
+
+
+nav ul,li,a{
 list-style-type: none;
 color: white;
 font-size: 18px;
 margin: 15px;}
 
-/* PROCESS */
+p{font-size: 14px;}
 
-.process{text-align: center}
+.aboutus h2{background-image: url(../images/the-flatiron-building.png);
+color: white;
+font-size: 23px;
+font-weight: bold;
+text-align: center;}
 
-.process h2{font-size: 32px;
-font-weight: bold;}
+footer{background-color: dimgray;
+	text-align: left;
+}
 
-.process p{font-size: 14px;}
+footer li,a{display: inline;
+text-align: left;
+	margin: 0px;
+}
+.copy{font-size: 11px;}
